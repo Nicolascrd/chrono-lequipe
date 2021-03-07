@@ -1,0 +1,158 @@
+@font-face {
+    font-family: titleFont;
+    src: url(font/DINNextLTPro-MediumCond.ttf);
+  }
+
+  @font-face {
+    font-family: regularFont;
+    src: url(font/DIN\ Next\ LT\ Pro\ Regular.ttf);
+  }
+
+
+/* to center the content */
+
+body{
+    width: 304px;
+    margin: 50px auto auto auto;
+    font-family: regularFont, sans-serif;
+}
+
+
+/* Arrows */
+
+.arrow {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 5px;
+  }
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+/* Font sizes and weight and color*/
+
+.section_title{
+    font-size: 20px;
+    font-family: titleFont;
+}
+
+.news{
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.time, .categorie{
+  font-family: titleFont, sans-serif;
+  font-size: 16px;
+}
+.categorie{
+  color:#575756;
+}
+
+.detail{
+  font-family:regularFont, sans-serif;
+  font-size: 14px;
+  color:#575756;
+}
+.time{
+  color:#909090;
+}
+.clic{
+  color: #3873b8;
+}
+
+
+
+
+/* Paddings and Margins and color for big blocks */
+
+#header{
+  line-height: 42px;
+  background: #DDDDDD;
+  padding-top:1px;
+}
+#footer{
+  background: #FFFFFF;
+  line-height: 42px;
+
+}
+#news_feed{
+  background: #F8F8F8;
+  padding-bottom:12px;
+}
+body{
+  background: #EEEEEE;
+}
+.news{
+  padding-top:12px;
+}
+.drop_down_menu{
+  background-color:#DDDDDD;
+  border: none; 
+  padding-right:20px;
+  -moz-appearance:none; /* Firefox */
+  -webkit-appearance:none; /* Safari and Chrome */
+  background-color: transparent;
+  background-image: url(arrow-down-sign-to-navigate.svg);
+  background-position-x: 100%;
+  background-position-y:center;
+  background-size: 12%;
+  background-repeat: no-repeat;
+}
+
+/* Paddings and layout */
+
+.time, .categorie{
+  padding-right: 4px;
+}
+
+.section_title{
+  padding-left: 30px;
+  padding-right:85px;
+}
+.voir_tout{
+  margin-left:35px;
+}
+.left{
+  margin-left:30px;
+  margin-right:10px
+}
+.right{
+  margin-left:10px;
+}
+.down{
+  margin-left:10px;
+  margin-bottom:2px;
+  border-color:#3873b8;
+}
+
+/* Select */
+
+.clic:hover{
+  color:#575756
+}
+.clic{
+  cursor:pointer;
+}
+
